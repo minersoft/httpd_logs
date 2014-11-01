@@ -1,0 +1,2 @@
+USE http
+IMPORT register_httpd_logs

@@ -1,0 +1,4 @@
+IMPORT ncsa_log
+EVAL ncsa_log.test()
+IMPORT apache_log
+EVAL apache_log.test()

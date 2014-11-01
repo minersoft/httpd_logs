@@ -1,0 +1,12 @@
+{
+    "name": "httpd_logs",
+    "description": "Parsing logs of httpd server",
+    "url": "github:///minersoft/httpd_logs",
+    "version": "1.0.0",
+    "build": 3,
+    "last_modified": "2014-11-01 23:30:00",
+    "dependencies": [],
+    "external_modules": [],
+    "external_resources": [],    
+    "changelog": []
+}
