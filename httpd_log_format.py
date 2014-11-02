@@ -33,7 +33,7 @@ class LogFormat(string.Template):
         self.registerFieldReferences(field)
         return self.getPattern(field, default)
     def match(self, logLine):
-        return self.regexp.search(logLine)
+        return self.regexp.match(logLine)
     # abstract function that should be implemented in child
     # It adds references to all named groups that appear in the field substitution
     def registerFieldReferences(self, field):
